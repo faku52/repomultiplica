@@ -1,7 +1,28 @@
 *{
-    background-color:rgb(60, 48, 147);
     color: rgb(250, 251, 252);
     text-align: center;
     font-family: 'Oswald' , sans-serif;
     font-size: 24px;
+    
+}
+
+.tamañoImagen{
+        width: 500px;
+}
+
+.divInline{
+    display: inline-block;
+}
+
+.contenedor{
+    display: inline-block;
+}
+body{
+    background-image: url("/libreria.jpg");
+    background-color:rgb(60, 48, 147);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
 }
