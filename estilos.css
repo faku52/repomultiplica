@@ -1,13 +1,29 @@
-*{
-    color: rgb(250, 251, 252);
-    text-align: center;
+main{
+    color: rgb(255, 255, 255);
+    text-align: left;
     font-family: 'Oswald' , sans-serif;
     font-size: 24px;
-    
+    font-weight: light ; 
+    margin-left: 20px;     
+}
+
+.logoPagina{
+    display: inline-block;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pageName{
+    display: inline;
+    font-family: "Kalam" , Times, serif;
+    font-size: 48px;
+    color: rgb(239, 241, 244);
+    position: relative;
+    margin: right;        
 }
 
 .tamañoImagen{
-        width: 500px;
+        width: 400px;
+        padding-left: 33%;
 }
 
 .divInline{
@@ -20,9 +36,42 @@
 body{
     background-image: url("/libreria.jpg");
     background-color:rgb(60, 48, 147);
-    height: 500px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+    background-attachment: fixed;
+    background-position-y: 80%;
+    background-blend-mode: multiply;   
+}
+main{
+    background: transparent;
+}
+main h1{
+    font-size: 64px;
+    text-align: center;
+    background-color: rgba(164, 68, 68, 0.568);
+}
+
+main h3, p, ul{
+    background-color: rgba(0, 0, 0, 0.56);
+    display: inline-block;
+}
+
+.tablaPremios{
+    table-layout: fixed;
+    border: 5px solid white;
+    text-align: left;
+    border-style: double;
+    border-collapse: separate;
+}
+th , td{
+    border: 5px solid white;
+}
+#premios{
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+button a{
+    text-decoration: none;
+    font-family: 'Verdana';
 }
