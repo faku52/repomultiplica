@@ -30,9 +30,6 @@ main{
     display: inline-block;
 }
 
-.contenedor{
-    display: inline-block;
-}
 body{
     background-image: url("/libreria.jpg");
     background-color:rgb(60, 48, 147);
